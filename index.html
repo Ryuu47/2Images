@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+</head>
+<body>
+    <h1>Chèn 2 ảnh trên cùng một hàng</h1>
+    <div class="container">
+        <div class="item">
+            <img src="./img/28164671_213366592549192_1409580979918728824_o.jpg" alt="BoyBand-EXO-original-size-1440x960" class="image">
+            <p class="desc">Ảnh 1</p>
+        </div>
+
+        <div class="item">
+            <img src="./img/IhFtV4u.jpg" alt="BoyBand-EXO-original-size-1956x1304" class="image">
+            <p class="desc">Ảnh 2</p>
+        </div>
+    </div>
+
+    <style>
+        h1 {
+            text-align: center;
+            margin: 36px 0;
+        }
+    
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        .container .item {
+            margin: 16px 16px;
+            width: 50%;
+        }
+    
+        .container .item .image {
+            width: 100%;
+            height: 100%;
+            justify-self: center;    
+        }
+    
+        .container .item .desc {
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</body>
+
+
+</html>
